@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>997</width>
+    <height>796</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Times New Roman</family>
+   </font>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Ehut LTD.</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:  #4AAAA5;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="softwareName">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>10</y>
+      <width>361</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>48</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 48pt &quot;Times New Roman&quot;;
+color:  #0C3B40;
+background-color: #4AAAA5;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="text">
+     <string>Ehut LTD.</string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="mainPage">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>60</y>
+      <width>1101</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>18</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:   #3A4055;
+font: 75 18pt &quot;Times New Roman&quot;;
+background-color:  #4AAAA5;
+</string>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Triangular</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="elideMode">
+     <enum>Qt::ElideNone</enum>
+    </property>
+    <widget class="QWidget" name="tab_control">
+     <attribute name="title">
+      <string>Main Page</string>
+     </attribute>
+     <widget class="QPushButton" name="start">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>221</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ClosedHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#41D4CF;
+color: #0C5E3E;
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>start</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="stop">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>70</y>
+        <width>221</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ClosedHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#41D4CF;
+color: #D60000;
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>stop</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="forched_stop">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>580</y>
+        <width>221</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ClosedHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#41D4CF;
+color: #D60000;
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Forced Stop</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="exit">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>640</y>
+        <width>221</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ClosedHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#41D4CF;
+color:  #D60000;
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="uploadPva">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>470</y>
+        <width>221</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ClosedHandCursor</cursorShape>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#41D4CF;
+font: 75 12pt &quot;Times New Roman&quot;;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>Upload PVA</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="uploadMessage">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>410</y>
+        <width>221</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ClosedHandCursor</cursorShape>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#41D4CF;
+font: 75 12pt &quot;Times New Roman&quot;;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>Upload Message</string>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="monitor">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>0</y>
+        <width>881</width>
+        <height>711</height>
+       </rect>
+      </property>
+      <property name="cursor" stdset="0">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string extracomment="Select Browser"/>
+      </property>
+      <property name="toolTipDuration">
+       <number>5</number>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: #41CD52;
+font: 8pt &quot;Times New Roman&quot;;
+background-color:#B2FEFE;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::WinPanel</enum>
+      </property>
+      <property name="documentTitle">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="activityType">
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>290</y>
+        <width>210</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>11</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#41D4CF;
+font: 75 11pt &quot;Times New Roman&quot;;
+color: #000000;</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QRadioButton" name="activityPartners">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>171</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>171</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #000000;</string>
+       </property>
+       <property name="text">
+        <string>Activity-Partners</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>11</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #000000;</string>
+       </property>
+       <property name="text">
+        <string>Missed-Connections</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="browsers">
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>140</y>
+        <width>211</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="statusTip">
+       <string/>
+      </property>
+      <property name="whatsThis">
+       <string/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#41D4CF;
+font: 75 12pt &quot;Times New Roman&quot;;
+color: #000000;</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QRadioButton" name="googleChrome">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #000000;</string>
+       </property>
+       <property name="text">
+        <string>Google Chrome</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="edge">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #000000;</string>
+       </property>
+       <property name="text">
+        <string>Edge</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="firefox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #000000;</string>
+       </property>
+       <property name="text">
+        <string>Firefox</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="hideBrowser">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #000000;</string>
+       </property>
+       <property name="text">
+        <string>Hide</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
